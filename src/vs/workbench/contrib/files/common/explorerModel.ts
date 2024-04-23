@@ -105,7 +105,8 @@ export class ExplorerItem {
 		private _locked?: boolean,
 		private _name: string = basenameOrAuthority(resource),
 		private _mtime?: number,
-		private _unknown = false
+		private _unknown = false,
+		public secret = false
 	) {
 		this._isDirectoryResolved = false;
 	}

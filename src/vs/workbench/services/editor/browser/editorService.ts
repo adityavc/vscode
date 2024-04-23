@@ -523,6 +523,7 @@ export class EditorService extends Disposable implements EditorServiceImpl {
 			preferredGroup = optionsOrPreferredGroup;
 		}
 
+
 		// Resolve override unless disabled
 		if (!isEditorInput(editor)) {
 			const resolvedEditor = await this.editorResolverService.resolveEditor(editor, preferredGroup);

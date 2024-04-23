@@ -9,6 +9,7 @@ import { RawContextKey } from 'vs/platform/contextkey/common/contextkey';
 export const REVEAL_IN_EXPLORER_COMMAND_ID = 'revealInExplorer';
 export const REVERT_FILE_COMMAND_ID = 'workbench.action.files.revert';
 export const OPEN_TO_SIDE_COMMAND_ID = 'explorer.openToSide';
+export const SAVE_FILE_AS_SECRET = 'explorer.makeSecret';
 export const OPEN_WITH_EXPLORER_COMMAND_ID = 'explorer.openWith';
 export const SELECT_FOR_COMPARE_COMMAND_ID = 'selectForCompare';
 
